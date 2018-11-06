@@ -4,12 +4,20 @@ using namespace std;
 int main()
 {
   int x;
+  int y;
   int m;
+  string version="1.0.2";
   
-  cout<< "Inserire numero da moltiplicare e premere INVIO"<<endl;
+  cout<< "Inserire numeri da moltiplicare e premere INVIO"<<endl;
   cin>>x;
-  m=x*1;
+
+  cin>>y;
+  m=x*y;
   cout<<"Il tuo risultato e': "<<m<<endl;
+
+  
+  cout<<"Versione del programma: "<<version<<endl;
+  cout<<"Programma realizzato da BernardiMarco98"<<endl;
   
   return 0;
 }
