@@ -15,5 +15,7 @@ int main()
   cout<<"Il tuo risultato è: "<<m<<endl;
   
   cout<<"Versione del programma: "<<version<<endl;
+  cout<<"Programma realizzato da BernardiMarco98"<<endl;
+  
   return 0;
 }
