@@ -9,7 +9,7 @@ int main()
   cout<< "Inserire numero da moltiplicare e premere INVIO"<<endl;
   cin>>x;
   m=x*1;
-  cout<<"Il tuo risultato è: "<<m<<endl;
+  cout<<"Il tuo risultato e': "<<m<<endl;
   
   return 0;
 }
